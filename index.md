@@ -8,93 +8,145 @@ I am a Software engineer and Unity developer of 10+ years specializing in comple
 
 In my free time, I like to ski fast and climb slow.
 
-[Download Resume](/resume.pdf){: .btn .btn--primary}
+## Skills
 
----
+Unity (Android, Photon, XR Interaction Toolkit, AR Foundations) · C# · .NET (Blazor, Azure Blob Storage, MSAL) · JavaScript (d3.js) · Meta Quest · glTF · Helm
 
 ## Experience
 
-**[TrainingLab.ai](https://traininglab.ai)** — Principal Engineer
-*September 2023 – Present · Greater Seattle Area*
+### [TrainingLab.ai](https://traininglab.ai)
 
-Building a VR soft-skill training simulation that uses AI to deliver natural and dynamic conversations and judge user progression as they put newly learned soft-skills to work.
+#### Consulting Software Engineer (Part-time)
+
+September 2023 - Present, *Remote*
+
+Building a VR soft-skill training simulation that uses AI to deliver natural, dynamic conversations and assess player responses.
 
 - Created core gameplay systems for goal and task progression tracking
-- Integrated AI agent libraries
-- Worked with designers and artists to implement environments and UI
+- Integrating AI middleware (Convai) and conversational systems
 
----
+*Unity · Meta Quest 2 · Convai*
 
-**Light & Wonder** — Senior Advanced Software Engineer
-*March 2025 – February 2026 · Las Vegas, NV*
+### [Light & Wonder](https://www.lnw.com)
 
-Built bleeding-edge industrial design and visualization tools utilizing Extended Reality (XR) to bring true-to-life scale and a more natural user experience to the design process.
+#### Senior Software Engineer
 
-Built an XR (Meta Quest 3 + passthrough) app in Unity for industrial designers to view, position, and annotate 3D cabinet models. Models were uploaded through a web portal, converted to glTF, and stored in Azure Blob Storage. Authentication via MSAL Device Code Flow with tokens encrypted using the Android Keystore (via a custom Kotlin wrapper). Users could snap models, toggle X-Ray mode to inspect internal meshes, draw 2D annotations tied to model points, and save and restore full scenes.
+March 2025 - February 2026, *Las Vegas, NV*
 
-*Meta Quest 3 · Unity 6 · XR Interaction Toolkit · AR Foundation · MSAL · glTFast · Azure Blob Storage*
+Built internal design and 3D model visualization tools for XR, providing an alternative to costly physical mockups and enabling remote feedback and early-stage design reviews.
 
----
+- Built the XR frontend from scratch in Unity with XR Interaction Toolkit and AR Foundations, targeting Meta Quest 3
+- Utilized glTF for runtime model import via Assimp
+- Used .NET Azure Blob Storage libraries for remote file management
+- Implemented MSAL token flow authentication with a custom Android Keystore wrapper for secure credential storage
 
-**AppLovin** — Senior Software Engineer (MZ)
-*May 2024 – October 2024 · Greater Seattle Area*
+*Unity · C# · XR Interaction Toolkit · AR Foundations · Assimp · glTF · Meta Quest 3 · Azure Blob Storage · MSAL*
 
-Worked on *Veilrunner: Arcane Frontiers*, a mobile MMORPG with multi-party tactical combat, challenging boss battles, and a large roster of collectible characters. Contributions spanned game systems, tooling, and infrastructure:
+### [AppLovin (Machine Zone)](https://www.applovin.com)
 
-- Developed tooling for in-game narrative design and creation
-- Platform-specific lifecycle handling (Android vs. iOS)
-- Custom on-screen keyboard handling and adjustable performance settings
-- Server-side build configuration and Argo CD Helm configuration
+#### Senior Software Engineer
 
-*Unity · Orleans · Dependency Injection · Argo CD*
+May 2024 - October 2024, *Remote*
 
----
+Worked on *Veilrunner: Arcane Frontiers*, a mobile MMORPG with multi-party tactical combat, challenging boss battles, and a large roster of collectible characters with unique abilities. Position ended on company shutdown.
 
-**Medtronic** — Senior Software Developer
-*December 2022 – May 2023 · Pasadena, CA*
+- Developed Unity Timeline tooling for in-game narrative design and creation
+- Added platform-specific lifecycle handling (Android vs. iOS) for player disconnects
+- Improved build configuration handling and migrated server-side configs to CI/CD (Helm)
 
-Six-month contract building VR training simulations for Medtronic surgical devices and procedures, focused on a training module for the Mazor Robotic Guidance System for Spinal Surgery with live O-Arm X-ray imaging simulation. Updated legacy procedures to support multiplayer via Photon (Unity).
+*Unity · Android · iOS · .NET · Orleans · Helm*
 
----
+### [Medtronic](https://www.medtronic.com)
 
-**Virtualitics, Inc.** — Software Engineer
-*June 2021 – August 2022 · Pasadena, CA*
+#### Senior Software Engineer (Contract)
 
-Ported a native VR/Desktop data visualization and analysis tool (think Palantir, but in VR) from Unity to a web application using C#, Blazor Server, .NET, JavaScript, D3.js, and HTML/CSS. Leveraged Blazor Server JIT to run existing Unity binaries without mocking the entire Unity API. Rebuilt the full Unity UI one-to-one in web markup and recreated all 2D chart generation in D3.js.
+December 2022 - May 2023, *Remote*
 
-*C# · .NET · Blazor · Unity · D3.js · JavaScript*
+Developed Unity-based VR training modules, including the Mazor Spinal Surgical System. Built internal customer demos and tutorials, and advised on VR training design and methodology.
 
----
+- Co-architected a VR interaction platform refactor that reduced dependent libraries from 11 to 3
+- Integrated platform network code with Photon and built a spawn management system
+- Scripted a voice-over generation system using Python and Google Cloud Text-to-Speech
 
-**Osso VR** — Virtual Reality Software Engineer
-*December 2016 – June 2021 · Remote*
+*Unity · Photon · Python · Google Cloud*
 
-2nd engineer at Osso VR. Helped turn a prototype VR orthopedic surgical simulator into a product trusted by Medtronic, J&J Medical, and Zimmer for training and sales, from seed funding through a $27M Series B.
+### [Virtualitics, Inc](https://www.virtualitics.com)
 
-Built the core interaction system, modularized large medical procedures, created specific interactions (sawing, drilling), built an OVR abstraction layer and a simulated generic C-arm, developed voice control, built artist tooling within Unity, and updated legacy interaction logic to support multiplayer.
+#### Software Engineer
 
-*Unity · C# · VR*
+June 2021 - August 2022, *Pasadena, CA*
 
----
+Ported a Unity desktop data visualization and analysis tool to a server-side web application.
 
-**Unity Technologies** — Software Engineer
-*October 2016 – December 2016 · Bellevue, WA*
+- One-to-one visual rebuild of the Unity UI in web markup (HTML/CSS)
+- Recreated all 2D chart generation in d3.js
+- Refactored Unity-dependent libraries to compile outside of the Unity runtime
 
-Built components for a tracked-controller VR interaction system used in-house on partner projects, which formed the base of a VR interaction package released alongside the Unity editor.
+*C# · .NET · Blazor · JavaScript · d3.js · HTML · CSS*
 
----
+### [Osso VR](https://www.ossovr.com)
 
-**Tomorrow Today Labs** — Virtual Reality Software Developer
-*August 2015 – September 2016 · Seattle, WA*
+#### Virtual Reality Software Developer
 
-Developed Unity-based VR games for the HTC Vive/SteamVR and created physics-based interaction frameworks for motion controller VR. Co-created [NewtonVR](https://github.com/TomorrowTodayLabs/NewtonVR), a physics-based interaction system for SteamVR/HTC Vive built on Unity's PhysX engine.
+December 2016 - June 2021, *Remote*
 
----
+2nd engineer at Osso VR. Turned a prototype VR orthopedic surgical simulator into a product trusted by Medtronic, J&J Medical, and Zimmer Biomet for training and sales enablement, growing from seed funding to $27M (Series B).
+
+- Built out the core interaction system, modularized surgical procedures and specific interactions, and created an OVR abstraction layer
+- Created a simulated generic C-arm for procedure accuracy
+- Developed VR interaction systems and voice control, tying procedures together in Unity
+- Built tools for artists within Unity and updated legacy interaction logic to support multiplayer
+
+*C# · .NET · Unity · Oculus SDK · OpenVR*
+
+### [Unity Technologies](https://unity.com)
+
+#### Unity Developer (Freelance)
+
+October 2016 - December 2016, *Bellevue, WA*
+
+Worked on various internal VR demonstrations.
+
+##### VR Foundations Toolkit
+
+Helped develop the Unity VR Foundations Toolkit (now XR Interaction Toolkit), a collection of Unity scripts for implementing motion controller interactions in VR. Wrote OVR and OpenVR abstractions.
+
+##### EVRTH
+
+Implemented globe grab interaction on a simulated planet Earth.
+
+*Unity · C# · OVR · OpenVR*
+
+### Tomorrow Today Labs
+
+#### Unity Developer (Freelance)
+
+August 2015 - September 2016, *Seattle, WA*
+
+Developed Unity-based virtual reality games for the HTC Vive/SteamVR and created physics-based interaction frameworks for motion controller-based VR.
+
+Co-created [NewtonVR](https://github.com/TomorrowTodayLabs/NewtonVR), a physics-based interaction system built in Unity3D for SteamVR/HTC Vive, implementing non-kinematic interactions through Unity's physics engine (PhysX).
+
+*Unity · C# · SteamVR · HTC Vive · PhysX*
+
+### [Microsoft](https://www.microsoft.com)
+
+#### Test Associate 1 (Contract)
+
+May 2010 - September 2010, *Redmond, WA*
+
+Ran test cases, filed bug reports, and conducted quality assurance on game titles initially released with the Kinect hardware for the Xbox 360.
+
+*Xbox 360 · Kinect*
 
 ## Education
 
-**University of Washington Bothell**
-B.S., Computer Science and Software Engineering · 2013 – 2015
+### University of Washington, Bothell, Bothell, WA
 
-**Bellevue College**
-A.S., Computer Science · 2011 – 2013
+B.S. Computer Science & Software Engineering, *2013 – 2015*
+
+- *Bioinformatics Research - Dr. Wooyoung Kim*
+
+### Bellevue College, Bellevue, WA
+
+A.S. Track II (Physics, Atmospheric Sciences, and Engineering), *2010 – 2012*
