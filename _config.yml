@@ -22,6 +22,15 @@ author:
       icon: "fas fa-envelope"
       url: "mailto:hello@nickabel.me"
 
+include:
+  - _pages
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
