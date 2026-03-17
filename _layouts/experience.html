@@ -5,15 +5,16 @@ layout: single
 {% for job in site.data.experience %}
 <div class="experience-entry">
   <div class="experience-header">
-    <h2 class="experience-company">
+    <h1 class="experience-company">
       {% if job.url %}
         <a href="{{ job.url }}">{{ job.company }}</a>
       {% else %}
         {{ job.company }}
       {% endif %}
-    </h2>
-    <h3 class="experience-title">{{ job.title }}</h3>
-    <p class="experience-meta"><em>{{ job.dates }} &middot; {{ job.location }}</em></p>
+    </h1>
+    <h2 class="experience-title">{{ job.title }}</h2>
+    <p class="experience-meta"><em>{{ job.dates }}</em></p>
+    <p class="experience-meta"><em>{{ job.location }}</em></p>
   </div>
 
   <div class="experience-body">
