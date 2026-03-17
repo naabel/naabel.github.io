@@ -1,0 +1,35 @@
+title: Nicholas Abel
+description: "Software Engineer, Wizard, Rock Climber, not in that order"
+url: "https://www.nickabel.me"
+
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "air"
+
+author:
+  name: "Nicholas Abel"
+  bio: "Software Engineer, Wizard, Rock Climber, not in that order"
+  links:
+    - label: "Resume"
+      icon: "fas fa-file-pdf"
+      url: "/resume.pdf"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/naabel"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/nicholas-abel-codes/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:hello@nickabel.me"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
