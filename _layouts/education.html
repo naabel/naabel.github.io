@@ -1,0 +1,20 @@
+---
+layout: single
+---
+
+{% for entry in site.data.education %}
+<div class="education-entry">
+  <h2 class="education-institution">{{ entry.institution }}</h2>
+  <h3 class="education-degree">{{ entry.degree }}</h3>
+  <p class="education-meta"><em>{{ entry.dates }} &middot; {{ entry.location }}</em></p>
+
+  {% if entry.notes %}
+  <ul>
+    {% for note in entry.notes %}
+    <li>{{ note }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{% unless forloop.last %}<hr>{% endunless %}
+{% endfor %}

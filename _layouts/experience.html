@@ -1,0 +1,53 @@
+---
+layout: single
+---
+
+{% for job in site.data.experience %}
+<div class="experience-entry">
+  <div class="experience-header">
+    <h2 class="experience-company">
+      {% if job.url %}
+        <a href="{{ job.url }}">{{ job.company }}</a>
+      {% else %}
+        {{ job.company }}
+      {% endif %}
+    </h2>
+    <h3 class="experience-title">{{ job.title }}</h3>
+    <p class="experience-meta"><em>{{ job.dates }} &middot; {{ job.location }}</em></p>
+  </div>
+
+  <div class="experience-body">
+    <p>{{ job.description | markdownify }}</p>
+
+    {% if job.bullets %}
+    <ul>
+      {% for bullet in job.bullets %}
+      <li>{{ bullet }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if job.projects %}
+    {% for project in job.projects %}
+    <h4>
+      {% if project.url %}
+        <a href="{{ project.url }}">{{ project.name }}</a>
+      {% else %}
+        {{ project.name }}
+      {% endif %}
+    </h4>
+    <p>{{ project.description }}</p>
+    {% endfor %}
+    {% endif %}
+
+    {% if job.tech %}
+    <p class="experience-tech">
+      {% for item in job.tech %}
+        <span class="experience-tech-item">{{ item }}</span>{% unless forloop.last %} &middot; {% endunless %}
+      {% endfor %}
+    </p>
+    {% endif %}
+  </div>
+</div>
+{% unless forloop.last %}<hr>{% endunless %}
+{% endfor %}

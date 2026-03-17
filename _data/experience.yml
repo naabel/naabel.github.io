@@ -1,0 +1,149 @@
+- company: TrainingLab.ai
+  url: https://traininglab.ai
+  title: Consulting Software Engineer (Part-time)
+  dates: September 2023 - Present
+  location: Remote
+  description: Building a VR soft-skill training simulation that uses AI to deliver natural, dynamic conversations and assess player responses.
+  bullets:
+    - Created core gameplay systems for goal and task progression tracking
+    - Integrating AI middleware (Convai) and conversational systems
+  tech:
+    - Unity
+    - Meta Quest 2
+    - Convai
+
+- company: Light & Wonder
+  url: https://www.lnw.com
+  title: Senior Software Engineer
+  dates: March 2025 - February 2026
+  location: Las Vegas, NV
+  description: Built internal design and 3D model visualization tools for XR, providing an alternative to costly physical mockups and enabling remote feedback and early-stage design reviews.
+  bullets:
+    - Built the XR frontend from scratch in Unity with XR Interaction Toolkit and AR Foundations, targeting Meta Quest 3
+    - Utilized glTF for runtime model import via Assimp
+    - Used .NET Azure Blob Storage libraries for remote file management
+    - Implemented MSAL token flow authentication with a custom Android Keystore wrapper for secure credential storage
+  tech:
+    - Unity
+    - C#
+    - XR Interaction Toolkit
+    - AR Foundations
+    - Assimp
+    - glTF
+    - Meta Quest 3
+    - Azure Blob Storage
+    - MSAL
+
+- company: AppLovin (Machine Zone)
+  url: https://www.applovin.com
+  title: Senior Software Engineer
+  dates: May 2024 - October 2024
+  location: Remote
+  description: "Worked on *Veilrunner: Arcane Frontiers*, a mobile MMORPG with multi-party tactical combat, challenging boss battles, and a large roster of collectible characters with unique abilities. Position ended on company shutdown."
+  bullets:
+    - Developed Unity Timeline tooling for in-game narrative design and creation
+    - Added platform-specific lifecycle handling (Android vs. iOS) for player disconnects
+    - Improved build configuration handling and migrated server-side configs to CI/CD (Helm)
+  tech:
+    - Unity
+    - Android
+    - iOS
+    - .NET
+    - Orleans
+    - Helm
+
+- company: Medtronic
+  url: https://www.medtronic.com
+  title: Senior Software Engineer (Contract)
+  dates: December 2022 - May 2023
+  location: Remote
+  description: Developed Unity-based VR training modules, including the Mazor Spinal Surgical System. Built internal customer demos and tutorials, and advised on VR training design and methodology.
+  bullets:
+    - Co-architected a VR interaction platform refactor that reduced dependent libraries from 11 to 3
+    - Integrated platform network code with Photon and built a spawn management system
+    - Scripted a voice-over generation system using Python and Google Cloud Text-to-Speech
+  tech:
+    - Unity
+    - Photon
+    - Python
+    - Google Cloud
+
+- company: "Virtualitics, Inc"
+  url: https://www.virtualitics.com
+  title: Software Engineer
+  dates: June 2021 - August 2022
+  location: Pasadena, CA
+  description: Ported a Unity desktop data visualization and analysis tool to a server-side web application.
+  bullets:
+    - One-to-one visual rebuild of the Unity UI in web markup (HTML/CSS)
+    - Recreated all 2D chart generation in d3.js
+    - Refactored Unity-dependent libraries to compile outside of the Unity runtime
+  tech:
+    - C#
+    - .NET
+    - Blazor
+    - JavaScript
+    - d3.js
+    - HTML
+    - CSS
+
+- company: Osso VR
+  url: https://www.ossovr.com
+  title: Virtual Reality Software Developer
+  dates: December 2016 - June 2021
+  location: Remote
+  description: 2nd engineer at Osso VR. Turned a prototype VR orthopedic surgical simulator into a product trusted by Medtronic, J&J Medical, and Zimmer Biomet for training and sales enablement, growing from seed funding to $27M (Series B).
+  bullets:
+    - Built out the core interaction system, modularized surgical procedures and specific interactions, and created an OVR abstraction layer
+    - Created a simulated generic C-arm for procedure accuracy
+    - Developed VR interaction systems and voice control, tying procedures together in Unity
+    - Built tools for artists within Unity and updated legacy interaction logic to support multiplayer
+  tech:
+    - C#
+    - .NET
+    - Unity
+    - Oculus SDK
+    - OpenVR
+
+- company: Unity Technologies
+  url: https://unity.com
+  title: Unity Developer (Freelance)
+  dates: October 2016 - December 2016
+  location: Bellevue, WA
+  description: Worked on various internal VR demonstrations.
+  projects:
+    - name: VR Foundations Toolkit
+      description: Helped develop the Unity VR Foundations Toolkit (now XR Interaction Toolkit), a collection of Unity scripts for implementing motion controller interactions in VR. Wrote OVR and OpenVR abstractions.
+    - name: EVRTH
+      description: Implemented globe grab interaction on a simulated planet Earth.
+  tech:
+    - Unity
+    - C#
+    - OVR
+    - OpenVR
+
+- company: Tomorrow Today Labs
+  title: Unity Developer (Freelance)
+  dates: August 2015 - September 2016
+  location: Seattle, WA
+  description: Developed Unity-based virtual reality games for the HTC Vive/SteamVR and created physics-based interaction frameworks for motion controller-based VR.
+  projects:
+    - name: NewtonVR
+      url: https://github.com/TomorrowTodayLabs/NewtonVR
+      description: Co-created a physics-based interaction system built in Unity3D for SteamVR/HTC Vive, implementing non-kinematic interactions through Unity's physics engine (PhysX).
+  tech:
+    - Unity
+    - C#
+    - SteamVR
+    - HTC Vive
+    - PhysX
+
+- company: Microsoft
+  url: https://www.microsoft.com
+  title: Test Associate 1 (Contract)
+  dates: May 2010 - September 2010
+  location: Redmond, WA
+  description: Ran test cases, filed bug reports, and conducted quality assurance on game titles initially released with the Kinect hardware for the Xbox 360.
+  tech:
+    - Xbox 360
+    - Kinect

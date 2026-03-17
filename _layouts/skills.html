@@ -1,0 +1,14 @@
+---
+layout: single
+---
+
+{% for group in site.data.skills %}
+<div class="skills-group">
+  <h2>{{ group.category }}</h2>
+  <div class="skills-list">
+    {% for skill in group.skills %}
+    <span class="skill-tag">{{ skill }}</span>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}
